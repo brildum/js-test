@@ -15,13 +15,17 @@ configuration file is used, it will either test our React app in CI mode or envi
 (using Playwright).
 
 - Install dependencies
+
   `yarn install`
 
 - Run CI integration tests
+
   `yarn run jest`
 
 - Run environment integration tests (2 steps)
+
   `yarn run webpack serve` (this starts HTTP server at localhost:9000)
+
   `yarn run jest -c jest.playwright.js`
 
 ### CI integration tests
