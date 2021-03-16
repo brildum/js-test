@@ -1,0 +1,15 @@
+
+module.exports = {
+  plugins: [
+    [
+      '@babel/plugin-transform-runtime',
+      {
+        corejs: 3,
+      },
+    ],
+  ],
+  presets: [
+    '@babel/preset-env',
+    '@babel/preset-react',
+  ],
+};
